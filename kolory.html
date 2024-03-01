@@ -13,10 +13,12 @@
             <h1>Pomocnik CSS</h1>
         </div>
         <div>
-            <div>Kolory</div>
-            <div>Czcionki</div>
-            <div>style CSS</div>
-            <div>pomoc</div>
+            <ul>
+                <a href="kolory.html"><li>Kolory   </li></a>
+                <a href="czcionki.html"><li>Czcionki </li></a>
+                <a href="style.html"><li>style CSS</li></a>
+                <a target = "_ blank" href="https://www.w3schools.com/css/"><li>pomoc    </li></a>
+              </ul>
         </div>
 
     </header>
@@ -24,22 +26,28 @@
     <main>
         <div>
             <H2>Podaj składową H koloru HSL</H2>
-
+            <p>0 do 30 czerwienie, do 60 żółcie, do 150 zielenie, do 250 niebieskie, do 360 fiolet i purpura</p>
         </div>
         <div>
-            <img src="kolory.jpg" alt=""> <br>
-            <input type="text">
+            <img src="kolory.jpg" alt="Przestrzeń barw HSL"> <br>
+            <input type="number" placeholder="0 – 360" min="0" max="360">
             <input type="button" value="generuj paletę">
         </div>
-        <div>
-            <div id="niebieski1">
 
-            </div>
-            <div>
-            <div id="niebieski2"></div>
-            <div id="niebieski3"></div>
-            <div id="niebieski4 "></div>
-            <div id="niebieski5"></div>
+        <div>
+            <table>
+                <tr>
+                    <th colspan="4">Kolor główny</th>
+                    
+                  </tr>
+                  <tr>
+                    <td>Kolor 2</td>
+                    <td>Kolor 3</td>
+                    <td>Kolor 4</td>
+                    <td>Kolor 5</td>
+                  </tr>
+
+            </table>
         </div>
 
         </div>
