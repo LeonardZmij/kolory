@@ -19,3 +19,31 @@
 footer,header{
     background-color: rgb(255, 0, 0);
 }
+
+#kontener{
+     font-family: Helvetica,sans-serif;
+     background-color: Linen;
+     color: #222;
+     margin: auto;
+     width: 90%;
+     padding: 20px;
+}
+
+
+#baner1,#baner2{
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 100px;
+}
+
+footer{
+    background-color:black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#tablica{
+    margin: 40px;
+}
