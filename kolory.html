@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styl2.css">
-    <script src="script.js"></script>
+    <script src="script.js"defer></script>
 </head>
 <body>
     <div id="kontener"> 
@@ -31,21 +31,21 @@
         </div>
         <div>
             <img src="kolory.jpg" alt="Przestrzeń barw HSL"> <br>
-            <input type="number" placeholder="0 – 360" min="0" max="360">
-            <input type="button" value="generuj paletę">
+            <input type="number" id="numHSL" placeholder="0 – 360" min="0" max="360">
+            <input type="button" value="generuj paletę" onclick="Kolory()">
         </div>
 
         <div>
             <table id="tablica">
                 <tr>
-                    <th colspan="4">Kolor główny</th>
+                    <th colspan="4" id="komorka1">Kolor główny</th>
                     
                   </tr>
                   <tr>
-                    <td>Kolor 2</td>
-                    <td>Kolor 3</td>
-                    <td>Kolor 4</td>
-                    <td>Kolor 5</td>
+                    <td id="komorka2">Kolor 2</td>
+                    <td id="komorka3">Kolor 3</td>
+                    <td id="komorka4">Kolor 4</td>
+                    <td id="komorka5">Kolor 5</td>
                   </tr>
 
             </table>
