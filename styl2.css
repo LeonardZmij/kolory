@@ -46,4 +46,27 @@ footer{
 
 #tablica{
     margin: 40px;
+   
+}
+ td{
+    padding: 30px;
+    text-align: center;
+    font: bolder;
+
+}
+
+a{
+    text-decoration: none;
+    color: #aaa;
+
+}
+
+a:hover{
+   color: white;
+}
+
+ul li{
+    padding: 5px;
+    margin: 10px;
+    border-bottom: solid 1px white;
 }
